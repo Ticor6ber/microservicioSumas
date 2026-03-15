@@ -24,7 +24,7 @@ function sumaQuery() {
     const n1 = document.getElementById('numA').value;
     const n2 = document.getElementById('numB').value;
 
-    fetch(`http://127.0.0.1:3002/sumar?a=${n1}&b=${n2}`)
+    fetch(`https://microserviciosumas-production.up.railway.app/sumar?a=${n1}&b=${n2}`)
         .then(res => res.json())
         .then(data => {
             display.innerText = "Resultado: " + data.resultado;
