@@ -46,6 +46,6 @@ const server = createServer((req, res) => {
 
 });
 
-server.listen(3003, () => {
+server.listen(process.env.PORT || 3003, () => {
   console.log("Microservicio SUMA Body Params en puerto 3003");
 });
