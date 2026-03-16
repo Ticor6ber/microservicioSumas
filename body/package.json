@@ -2,7 +2,7 @@
   "name": "microservicio-suma",
   "version": "1.0.0",
   "type": "module",
-  "main": "server.mjs",
+  "main": "sumabody.mjs",
   "scripts": {
     "start": "node sumabody.mjs"
   }
