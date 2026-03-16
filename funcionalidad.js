@@ -42,7 +42,7 @@ function sumaBody() {
     const n1 = document.getElementById('numA').value;
     const n2 = document.getElementById('numB').value;
 
-    fetch("http://127.0.0.1:3003/sumar", {
+    fetch("https://microserviciosumasbody.onrender.com/sumar", {
 
         method: "POST",
 
